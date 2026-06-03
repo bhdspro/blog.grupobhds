@@ -4,39 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- ======================================================================= -->
-    <!-- METADADOS DE SEO: O "Textinho" do Google e Títulos                        -->
-    <!-- ======================================================================= -->
-    <title>Título do Artigo Focado no Produto | Completo e Atualizado</title>
-    <!-- A tag abaixo é EXATAMENTE o "textinho/resumo" que aparece no Google -->
-    <meta name="description" content="Descubra a verdade sobre [Nome do Produto]. Nossa análise detalhada revela se funciona, ingredientes, benefícios e onde comprar com segurança.">
-    <meta name="keywords" content="palavra-chave principal, resenha do produto, funciona mesmo, comprar original">
-    <meta name="author" content="Marcos Rodrigues">
+    <!-- METADADOS DE SEO -->
+    <title>Completo e Atualizado | Análises, Reviews e Validação de Produtos</title>
+    <meta name="description" content="Portal especializado em investigar, testar e analisar a eficácia de encapsulados, infoprodutos e métodos. Leia nossas resenhas antes de comprar.">
     <meta name="robots" content="index, follow"> 
-    
-    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
-    <meta property="og:title" content="Título do Artigo Focado no Produto | Completo e Atualizado">
-    <meta property="og:description" content="Descubra a verdade sobre [Nome do Produto]. Nossa análise detalhada revela se funciona, benefícios e onde comprar com segurança.">
-    <meta property="og:image" content="https://blog.grupobhds.com/imagem-de-capa.jpg">
-    <!-- URL de onde a página será hospedada -->
-    <meta property="og:url" content="https://blog.grupobhds.com/PALAVRAS-CHAVE">
-    <meta property="og:type" content="article">
+    <link rel="canonical" href="https://blog.grupobhds.com/">
 
-    <!-- Canonical URL (Essencial para não haver conteúdo duplicado) -->
-    <link rel="canonical" href="https://blog.grupobhds.com/PALAVRAS-CHAVE">
-
-    <!-- Favicon de Verificado (Selo Azul gerado em SVG para carregar rápido e perfeito) -->
+    <!-- Favicon -->
     <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231DA1F2'%3E%3Cpath d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.9 14.7L6 12.6l1.5-1.5 2.6 2.6 6.4-6.4 1.5 1.5-7.9 7.9z'/%3E%3C/svg%3E">
 
-    <!-- Tailwind CSS (CDN para modelo) -->
+    <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
 
-    <!-- Google Fonts (Roboto para se alinhar ao estilo Material Design 3) -->
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
 
-    <!-- Configuração Customizada do Tailwind (Material 3 Expressive) -->
+    <!-- Configuração Customizada do Tailwind -->
     <script>
         tailwind.config = {
             theme: {
@@ -46,13 +31,6 @@
                         serif: ['Lora', 'serif'],
                     },
                     colors: {
-                        brand: {
-                            50: '#f0f9ff',
-                            100: '#e0f2fe',
-                            500: '#0ea5e9',
-                            600: '#0284c7',
-                            900: '#0c4a6e',
-                        },
                         m3: {
                             surface: '#fdfbff',
                             surfaceVariant: '#e1e2ec',
@@ -62,61 +40,14 @@
                             onPrimaryContainer: '#001a41',
                         }
                     },
-                    borderRadius: {
-                        '4xl': '2rem',
-                    },
                     boxShadow: {
                         'm3-1': '0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30)',
                         'm3-2': '0px 2px 6px 2px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30)',
-                        'm3-3': '0px 1px 3px 0px rgba(0, 0, 0, 0.30), 0px 4px 8px 3px rgba(0, 0, 0, 0.15)',
                     }
                 }
             }
         }
     </script>
-
-    <!-- Schema Markup (JSON-LD) para o "Textinho" e Rich Snippets do Google -->
-    <script type="application/ld+json">
-    {
-      "@context": "https://schema.org",
-      "@type": "Article",
-      "mainEntityOfPage": {
-        "@type": "WebPage",
-        "@id": "https://blog.grupobhds.com/PALAVRAS-CHAVE"
-      },
-      "headline": "Título do Artigo Focado no Produto | Completo e Atualizado",
-      "description": "Descubra a verdade sobre [Nome do Produto]. Nossa análise detalhada revela se funciona, ingredientes, benefícios e onde comprar com segurança.",
-      "image": "https://blog.grupobhds.com/imagem-de-capa.jpg",  
-      "author": {
-        "@type": "Person",
-        "name": "Marcos Rodrigues"
-      },  
-      "publisher": {
-        "@type": "Organization",
-        "name": "Completo e Atualizado",
-        "logo": {
-          "@type": "ImageObject",
-          "url": "https://blog.grupobhds.com/logo.png"
-        }
-      },
-      "datePublished": "2026-06-02T10:00:00-03:00",
-      "dateModified": "2026-06-02T10:00:00-03:00"
-    }
-    </script>
-    
-    <style>
-        /* Estilos base para a área de conteúdo otimizados para conversão */
-        .article-content h2 { @apply text-2xl md:text-3xl font-bold mt-12 mb-5 text-slate-800 font-sans tracking-tight; }
-        .article-content h3 { @apply text-xl md:text-2xl font-bold mt-8 mb-4 text-slate-800 font-sans; }
-        .article-content p { @apply mb-6 text-[1.1rem] md:text-lg text-slate-700 leading-relaxed font-serif; }
-        .article-content a:not(.btn-cta) { @apply text-m3-primary font-medium underline decoration-2 decoration-m3-primary/30 hover:decoration-m3-primary transition-all duration-200; }
-        .article-content ul { @apply list-disc list-inside mb-6 text-[1.1rem] md:text-lg text-slate-700 pl-2 space-y-3 font-serif bg-slate-50 p-6 rounded-3xl border border-slate-100; }
-        .article-content strong { @apply font-bold text-slate-900; }
-        .article-content blockquote { @apply border-l-4 border-m3-primary pl-6 italic text-slate-700 my-8 py-2 text-xl font-serif bg-m3-primaryContainer/20 rounded-r-3xl; }
-        
-        /* Efeito de destaque nas palavras-chave */
-        .highlight { @apply bg-yellow-100 px-1 rounded-sm; }
-    </style>
 </head>
 <body class="bg-[#f0f4f8] font-sans text-slate-800 antialiased selection:bg-m3-primaryContainer selection:text-m3-onPrimaryContainer flex flex-col min-h-screen">
 
@@ -126,181 +57,131 @@
             <div class="flex justify-between items-center h-20">
                 <!-- Logo -->
                 <div class="flex-shrink-0 flex items-center">
-                    <a href="/" class="flex items-center gap-3 group" aria-label="Voltar para a página inicial">
+                    <a href="https://blog.grupobhds.com/" class="flex items-center gap-3 group" aria-label="Voltar para a página inicial">
                         <img src="https://blog.grupobhds.com/logo.png" alt="Completo e Atualizado Logo" class="h-10 w-auto group-hover:scale-105 transition-transform duration-300" onerror="this.src='https://placehold.co/150x50/ffffff/005ac1?text=Logo+Aqui'">
                         <span class="font-bold text-xl tracking-tight text-slate-900 hidden sm:block">Completo e Atualizado</span>
                     </a>
                 </div>
-                <!-- Navegação Principal (Material 3 Tabs Style) -->
-                <nav class="hidden md:flex space-x-2" aria-label="Navegação Principal">
-                    <a href="#" class="text-slate-600 hover:text-m3-primary hover:bg-m3-primaryContainer/30 px-4 py-2 rounded-full text-sm font-medium transition-all">Início</a>
-                    <a href="#" class="text-m3-primary bg-m3-primaryContainer/50 px-4 py-2 rounded-full text-sm font-bold transition-all">Resenhas</a>
-                    <a href="#" class="text-slate-600 hover:text-m3-primary hover:bg-m3-primaryContainer/30 px-4 py-2 rounded-full text-sm font-medium transition-all">Contato</a>
-                </nav>
             </div>
         </div>
     </header>
 
-    <!-- Breadcrumb -->
-    <div class="bg-white shadow-sm relative z-40">
-        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
-            <nav class="flex text-sm text-slate-500 font-medium" aria-label="Breadcrumb">
-                <ol class="inline-flex items-center space-x-1 md:space-x-2">
-                    <li class="inline-flex items-center">
-                        <a href="/" class="hover:text-m3-primary transition-colors">Home</a>
-                    </li>
-                    <li>
-                        <div class="flex items-center">
-                            <span class="mx-1 text-slate-300">/</span>
-                            <a href="#" class="ml-1 hover:text-m3-primary transition-colors">Análises</a>
-                        </div>
-                    </li>
-                    <li aria-current="page">
-                        <div class="flex items-center">
-                            <span class="mx-1 text-slate-300">/</span>
-                            <span class="ml-1 text-slate-800 font-semibold truncate max-w-[150px] sm:max-w-xs md:max-w-md">Nome do Produto em Análise</span>
-                        </div>
-                    </li>
-                </ol>
-            </nav>
+    <!-- Hero Section (Apresentação do Projeto - Estática) -->
+    <section class="bg-white border-b border-slate-200 relative overflow-hidden">
+        <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-m3-primary via-blue-400 to-m3-primaryContainer"></div>
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 flex flex-col items-center text-center">
+            <div class="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-50 text-m3-primary font-bold text-sm mb-6 border border-blue-100">
+                <svg class="w-4 h-4 text-m3-primary" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.9 14.7L6 12.6l1.5-1.5 2.6 2.6 6.4-6.4 1.5 1.5-7.9 7.9z"/></svg>
+                Portal de Investigação & Análises
+            </div>
+            <h1 class="text-4xl md:text-5xl lg:text-7xl font-black text-slate-900 tracking-tight leading-tight mb-8 max-w-5xl">
+                A verdade nua e crua sobre o mercado digital.
+            </h1>
+            <p class="text-lg md:text-2xl text-slate-600 font-serif max-w-3xl leading-relaxed mb-0">
+                O <strong>Completo e Atualizado</strong> é um núcleo investigativo independente. Nós analisamos a fundo os produtos físicos e digitais mais populares da internet para revelar se entregam resultados reais ou se são apenas promessas.
+            </p>
         </div>
-    </div>
+    </section>
 
-    <!-- Layout Principal -->
-    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 md:py-12 flex flex-col lg:flex-row gap-8 lg:gap-12 w-full">
-        
-        <!-- Conteúdo Principal do Artigo -->
-        <article class="lg:w-2/3 w-full bg-white rounded-[2rem] shadow-m3-1 p-6 md:p-10 lg:p-12 relative overflow-hidden">
+    <main class="flex-grow max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-16 w-full">
+
+        <!-- Seção: Nossos Pilares de Análise (Substitui o feed de últimas notícias) -->
+        <section id="metodologia" class="mb-20">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-black text-slate-900 tracking-tight mb-4">O que nós investigamos?</h2>
+                <p class="text-slate-600 font-serif text-lg max-w-2xl mx-auto">Nossa equipe utiliza critérios técnicos rigorosos para validar a eficácia de diferentes soluções oferecidas no mercado digital e físico.</p>
+            </div>
             
-            <!-- Detalhe Visual (Expressive Material) -->
-            <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-m3-primary via-blue-400 to-m3-primaryContainer"></div>
-
-            <!-- Cabeçalho do Artigo -->
-            <header class="mb-10">
-                <!-- Tag H1 única e otimizada -->
-                <h1 class="text-3xl md:text-5xl font-black text-slate-900 tracking-tight leading-tight mb-8 font-sans">
-                    [Nome do Produto] Funciona Mesmo? <span class="text-m3-primary">Análise Completa e Atualizada</span>
-                </h1>
-                
-                <!-- Meta informações do autor e data -->
-                <div class="flex flex-wrap items-center justify-between gap-4 text-sm text-slate-600 bg-slate-50 p-4 rounded-2xl border border-slate-100">
-                    <div class="flex items-center gap-3">
-                        <div class="relative">
-                            <img src="https://blog.grupobhds.com/autor.png" alt="Marcos Rodrigues" class="w-12 h-12 rounded-full object-cover ring-2 ring-m3-primaryContainer" onerror="this.src='https://placehold.co/100x100/005ac1/ffffff?text=MR'">
-                            <!-- Ícone de Verificado no Autor -->
-                            <div class="absolute -bottom-1 -right-1 bg-white rounded-full p-0.5">
-                                <svg class="w-4 h-4 text-blue-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.9 14.7L6 12.6l1.5-1.5 2.6 2.6 6.4-6.4 1.5 1.5-7.9 7.9z"/></svg>
-                            </div>
-                        </div>
-                        <div>
-                            <span class="block font-bold text-slate-900">Marcos Rodrigues</span>
-                            <time datetime="2026-06-02" class="text-slate-500">Atualizado em 02 de Junho, 2026</time>
-                        </div>
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                <!-- Pilar 1 -->
+                <div class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-m3-primary rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"></path></svg>
                     </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Saúde e Física</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Avaliação de encapsulados, cosméticos, suplementos e itens físicos, verificando fórmulas, procedência e relatos reais.</p>
                 </div>
-            </header>
-
-            <!-- Corpo do Artigo -->
-            <div class="article-content">
                 
-                <!-- ========================================================== -->
-                <!-- ESPAÇO PARA IMAGEM OU VÍDEO YOUTUBE (OPCIONAL)             -->
-                <!-- ========================================================== -->
-                
-                <!-- OPÇÃO 1: Para usar um VÍDEO do YouTube, mantenha este bloco abaixo. 
-                     Ele já está responsivo (formato 16:9). Basta trocar o link do "src" -->
-                <div class="mb-10 relative w-full overflow-hidden pt-[56.25%] rounded-3xl shadow-sm border border-slate-100">
-                    <!-- Substitua o "ID_DO_VIDEO" pelo código do seu vídeo -->
-                    <iframe class="absolute top-0 left-0 w-full h-full" src="https://www.youtube.com/embed/ID_DO_VIDEO" title="Análise em Vídeo" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                <!-- Pilar 2 -->
+                <div class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-m3-primary rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 6.253v13m0-13C10.832 5.477 9.246 5 7.5 5S4.168 5.477 3 6.253v13C4.168 18.477 5.754 18 7.5 18s3.332.477 4.5 1.253m0-13C13.168 5.477 14.754 5 16.5 5c1.747 0 3.332.477 4.5 1.253v13C19.832 18.477 18.247 18 16.5 18c-1.746 0-3.332.477-4.5 1.253"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Produtos Digitais</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Auditoria em infoprodutos, cursos online e e-books. Validamos se o conteúdo corresponde à promessa da página de vendas.</p>
                 </div>
 
-                <!-- OPÇÃO 2: Para usar uma IMAGEM, apague o bloco de vídeo acima e descomente (remova o <!- - e - ->) do bloco abaixo -->
-                <!-- 
-                <figure class="mb-10">
-                    <img src="https://placehold.co/1200x675/e1e2ec/001a41?text=Sua+Imagem+Aqui" alt="Descrição da imagem para SEO" class="w-full rounded-3xl object-cover shadow-sm border border-slate-100">
-                </figure> 
-                -->
-
-                <!-- Introdução Impactante -->
-                <p class="text-xl md:text-2xl leading-relaxed text-slate-800 font-medium font-sans">Se você chegou até aqui, é porque quer saber a verdade nua e crua sobre o <strong class="text-m3-primary">[Nome do Produto]</strong>. Ele realmente entrega os resultados prometidos ou é apenas mais uma promessa vazia na internet?</p>
-                
-                <p>Com tantas opções disponíveis no mercado (e infelizmente, muitas falsificações), tomar uma decisão de compra segura se tornou um desafio. Neste dossiê completo, vou revelar todos os detalhes técnicos, benefícios reais e, principalmente, <strong>o que ninguém te conta</strong> sobre este produto.</p>
-
-                <!-- Box de Atenção (Gatilho de Autoridade/Urgência) -->
-                <div class="bg-red-50 border-l-4 border-red-500 p-6 rounded-r-2xl my-8">
-                    <h3 class="!mt-0 !mb-2 text-red-800 text-lg flex items-center gap-2">
-                        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v2m0 4h.01m-6.938 4h13.856c1.54 0 2.502-1.667 1.732-3L13.732 4c-.77-1.333-2.694-1.333-3.464 0L3.34 16c-.77 1.333.192 3 1.732 3z"></path></svg>
-                        Aviso Importante de Segurança
-                    </h3>
-                    <p class="text-red-700 !mb-0 text-base font-sans">Devido ao alto volume de buscas, cópias falsificadas estão sendo vendidas em marketplaces. O <strong class="highlight">produto</strong> só pode ser adquirido através do site oficial.</p>
+                <!-- Pilar 3 -->
+                <div class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-m3-primary rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Serviços & Apps</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Testes práticos em softwares, aplicativos, ferramentas e serviços de assinatura para atestar usabilidade e segurança.</p>
                 </div>
 
-                <h2>Como o [Nome do Produto] age no organismo/negócio?</h2>
-                <p>Nesta seção, você deve explicar a mecânica de funcionamento. Independentemente de ser um encapsulado, produto físico ou infoproduto, o leitor precisa de lógica. A fórmula foi desenvolvida após anos de testes de validação...</p>
-                <p>Ao contrário de alternativas genéricas, ele foca na raiz do problema, proporcionando um resultado sustentável a longo prazo.</p>
+                <!-- Pilar 4 -->
+                <div class="bg-white rounded-[2rem] p-8 shadow-sm border border-slate-100 flex flex-col items-center text-center">
+                    <div class="w-16 h-16 bg-blue-50 text-m3-primary rounded-full flex items-center justify-center mb-6">
+                        <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                    </div>
+                    <h3 class="text-xl font-bold text-slate-900 mb-3">Confiabilidade</h3>
+                    <p class="text-slate-600 text-sm leading-relaxed">Investigação sobre a reputação das empresas, análise de CNPJ, índices de reclamação e garantias.</p>
+                </div>
+            </div>
+        </section>
 
-                <h3>Principais Benefícios Comprovados</h3>
-                <ul>
-                    <li><strong>Ação Direta:</strong> Como ele resolve o problema principal de forma rápida.</li>
-                    <li><strong>Tecnologia/Fórmula Exclusiva:</strong> O que o diferencia de tudo que existe hoje.</li>
-                    <li><strong>Segurança:</strong> Aprovação na Anvisa (se físico) ou Garantia Incondicional (se digital).</li>
-                    <li><strong>Facilidade de Uso:</strong> Praticidade para inserir na rotina diária.</li>
-                </ul>
-
-                <h2>Vale a Pena? Nosso Veredito</h2>
-                <p>Após analisarmos os componentes, depoimentos de clientes reais e a credibilidade do fabricante, a resposta é um sonoro <strong>sim</strong>. O investimento é totalmente justificado pela qualidade entregue.</p>
+        <!-- Bloco de Contato e Parcerias (Substitui os cards de artigos) -->
+        <section id="contato" class="bg-gradient-to-br from-slate-900 to-m3-onPrimaryContainer rounded-[2rem] shadow-m3-3 overflow-hidden mb-12">
+            <div class="px-8 py-16 md:px-16 flex flex-col md:flex-row gap-10 items-center justify-between">
                 
-                <blockquote>
-                    "A capacidade deste produto de entregar resultados consistentes, somada à garantia de satisfação oferecida pelo fabricante, faz dele a escolha número 1 do mercado atual."
-                </blockquote>
-
-                <!-- CTA Principal dentro do Conteúdo (Foco Discreto / Informativo) -->
-                <div class="mt-12 bg-slate-50 border-l-4 border-slate-300 p-8 rounded-r-2xl">
-                    <h3 class="!mt-0 !mb-3 text-xl font-bold text-slate-800">Consideração Final e Referência</h3>
-                    <p class="text-slate-600 !mb-5 font-sans text-base leading-relaxed">Para os leitores que acompanharam nossa análise e decidiram testar o produto, recomendamos fortemente que a pesquisa ou aquisição seja feita apenas através do canal oficial do fabricante, evitando marketplaces de terceiros para garantir a integridade da fórmula.</p>
+                <div class="md:w-3/5 text-center md:text-left">
+                    <div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-blue-500/20 text-blue-300 font-bold text-xs uppercase tracking-widest mb-4">
+                        Atendimento Exclusivo
+                    </div>
+                    <h2 class="text-3xl md:text-4xl font-black text-white tracking-tight mb-4">Parcerias, Dúvidas ou Denúncias?</h2>
+                    <p class="text-slate-300 font-serif text-lg leading-relaxed mb-8">
+                        Se você representa uma marca buscando auditoria independente para seus produtos (físicos, digitais ou serviços), ou se deseja sugerir uma pauta de investigação, nossa equipe está pronta para conversar.
+                    </p>
                     
-                    <a href="https://link-do-produto-oficial.com" class="inline-flex items-center gap-2 text-m3-primary font-medium hover:text-blue-800 transition-colors">
-                        Acessar o site oficial
-                        <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"></path></svg>
+                    <!-- Botão de WhatsApp -->
+                    <a href="https://wa.me/5543991228540?text=Olá,%20acessei%20o%20portal%20Completo%20e%20Atualizado%20e%20gostaria%20de%20conversar." 
+                       target="_blank" rel="noopener noreferrer"
+                       class="inline-flex items-center justify-center gap-3 bg-[#25D366] hover:bg-[#20bd5a] text-white font-bold py-4 px-8 rounded-full shadow-lg transition-transform duration-300 hover:scale-105 w-full sm:w-auto">
+                        <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/></svg>
+                        Fale Conosco
                     </a>
                 </div>
-
-            </div>
-
-            <!-- Caixa de Biografia do Autor Especialista (Atualizada) -->
-            <div class="mt-16 p-8 bg-m3-surfaceVariant/30 rounded-[2rem] border border-m3-surfaceVariant flex flex-col sm:flex-row gap-6 items-center sm:items-start text-center sm:text-left">
-                <div class="relative flex-shrink-0">
-                    <img src="https://blog.grupobhds.com/autor.png" alt="Marcos Rodrigues Especialista" class="w-28 h-28 rounded-full shadow-md object-cover border-4 border-white" onerror="this.src='https://placehold.co/150x150/005ac1/ffffff?text=MR'">
-                    <div class="absolute bottom-1 right-1 bg-white rounded-full p-1 shadow-sm">
-                        <svg class="w-5 h-5 text-blue-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.9 14.7L6 12.6l1.5-1.5 2.6 2.6 6.4-6.4 1.5 1.5-7.9 7.9z"/></svg>
+                
+                <div class="md:w-2/5 flex justify-center">
+                    <div class="bg-white/10 backdrop-blur-md border border-white/20 p-6 rounded-[2rem] w-full max-w-sm text-center">
+                         <div class="w-16 h-16 bg-white/20 rounded-full flex items-center justify-center mx-auto mb-4">
+                            <svg class="w-8 h-8 text-blue-200" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M8 12h.01M12 12h.01M16 12h.01M21 12c0 4.418-4.03 8-9 8a9.863 9.863 0 01-4.255-.949L3 20l1.395-3.72C3.512 15.042 3 13.574 3 12c0-4.418 4.03-8 9-8s9 3.582 9 8z"></path></svg>
+                         </div>
+                         <h4 class="text-white font-bold text-lg mb-2">Contato Direto</h4>
+                         <p class="text-slate-300 text-sm leading-relaxed">Nossa equipe de atendimento responde em horário comercial para tratar de pautas, validações e contatos comerciais.</p>
                     </div>
                 </div>
-                <div>
-                    <h3 class="text-2xl font-black text-slate-900 mb-2">Marcos Rodrigues</h3>
-                    <p class="text-m3-primary font-bold text-sm tracking-widest uppercase mb-3">Especialista em Validação & Mercado</p>
-                    <p class="text-slate-600 leading-relaxed text-sm md:text-base font-serif">
-                        Pesquisador e especialista em análises de mercado. Marcos dedica sua carreira a investigar a eficácia de produtos físicos, suplementos e infoprodutos. Seu objetivo principal é entregar análises rigorosas e imparciais para proteger o consumidor, combater fraudes na internet e garantir que você faça sempre a melhor decisão de compra.
-                    </p>
+
+            </div>
+        </section>
+
+        <!-- Bloco de Credibilidade E-E-A-T -->
+        <section class="mt-12 bg-m3-surfaceVariant/30 rounded-[2rem] border border-m3-surfaceVariant p-8 md:p-12 flex flex-col md:flex-row gap-8 items-center text-center md:text-left">
+            <div class="relative flex-shrink-0">
+                <img src="https://blog.grupobhds.com/autor.png" alt="Equipe Completo e Atualizado" class="w-32 h-32 md:w-40 md:h-40 rounded-full shadow-lg object-cover border-4 border-white" onerror="this.src='https://placehold.co/200x200/005ac1/ffffff?text=MR'">
+                <div class="absolute bottom-2 right-2 bg-white rounded-full p-1.5 shadow-sm">
+                    <svg class="w-6 h-6 text-blue-500" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.9 14.7L6 12.6l1.5-1.5 2.6 2.6 6.4-6.4 1.5 1.5-7.9 7.9z"/></svg>
                 </div>
             </div>
-
-        </article>
-
-        <!-- Barra Lateral (Sidebar) - Focada em Informação Sóbria -->
-        <aside class="lg:w-1/3 w-full flex flex-col gap-8">
-            
-            <!-- Widget de Referência Oficial (Discreto) -->
-            <div class="bg-white rounded-[2rem] shadow-sm border border-slate-100 p-8 sticky top-28">
-                <h3 class="text-lg font-black text-slate-900 mb-4 border-b border-slate-100 pb-3">Site Oficial do Produto</h3>
-                <p class="text-slate-600 text-sm mb-6 leading-relaxed">Conforme orientado na análise, caso precise consultar a ficha técnica completa ou solicitar sua unidade, utilize a fonte homologada.</p>
-                
-                <a href="https://link-do-produto-oficial.com" class="flex items-center justify-center gap-2 w-full bg-slate-100 hover:bg-slate-200 text-slate-700 font-medium py-3 px-4 rounded-xl transition-colors duration-200 text-sm">
-                    <svg class="w-4 h-4 text-slate-500" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13.828 10.172a4 4 0 00-5.656 0l-4 4a4 4 0 105.656 5.656l1.102-1.101m-.758-4.899a4 4 0 005.656 0l4-4a4 4 0 00-5.656-5.656l-1.1 1.1"></path></svg>
-                    Acessar Site Oficial
-                </a>	
+            <div>
+                <h2 class="text-2xl md:text-3xl font-black text-slate-900 mb-2">Compromisso com a Verdade</h2>
+                <p class="text-m3-primary font-bold text-sm tracking-widest uppercase mb-4">Liderado por Marcos Rodrigues</p>
+                <p class="text-slate-600 leading-relaxed text-base md:text-lg font-serif">
+                    O <strong>Completo e Atualizado</strong> nasceu com uma missão simples: proteger você contra promessas falsas na internet. Nossa equipe de pesquisadores dedica tempo e recursos para investigar, analisar e expor os fatos sobre os produtos mais comentados do mercado. Sem meias palavras, apenas a análise técnica rigorosa para garantir que você invista seu dinheiro com segurança.
+                </p>
             </div>
-
-        </aside>
+        </section>
 
     </main>
 
@@ -308,20 +189,20 @@
     <footer class="bg-white mt-auto py-10 border-t border-slate-200">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
             
-            <a href="/" class="flex items-center gap-3 mb-6" aria-label="Voltar para a página inicial">
+            <a href="https://blog.grupobhds.com/" class="flex items-center gap-3 mb-6" aria-label="Voltar para a página inicial">
                 <img src="https://blog.grupobhds.com/logo.png" alt="Completo e Atualizado Logo" class="h-10 w-auto opacity-80" onerror="this.src='https://placehold.co/150x50/ffffff/005ac1?text=Logo+Aqui'">
             </a>
             
             <p class="text-slate-500 text-sm leading-relaxed max-w-lg text-center mb-8">
-                Nosso compromisso é com a verdade. Analisamos os produtos mais procurados da internet para garantir que você faça sempre a melhor escolha para o seu bolso e saúde.
+                Analisamos os produtos mais procurados da internet para garantir que você faça sempre a melhor escolha para o seu bolso e saúde.
             </p>
             
             <div class="flex gap-6 mb-8">
+                <!-- Links Essenciais para SEO e E-E-A-T -->
                 <a href="https://blog.grupobhds.com/termos-de-uso" class="text-slate-400 hover:text-m3-primary text-sm font-medium transition-colors">Termos de Uso</a>
                 <a href="https://blog.grupobhds.com/politica-de-privacidade" class="text-slate-400 hover:text-m3-primary text-sm font-medium transition-colors">Política de Privacidade</a>
             </div>
             
-            <!-- Assinatura do Rodapé Exatamente como Solicitado -->
             <div class="text-center text-slate-600 font-bold text-base bg-slate-50 py-3 px-6 rounded-full border border-slate-100">
                 Completo e Atualizado <span class="text-xs font-normal text-slate-400 ml-1">by Grupo BHDS</span>
             </div>

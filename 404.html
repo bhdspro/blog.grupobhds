@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- ======================================================================= -->
+    <!-- METADADOS DE SEO (Foco em UX e Compartilhamento Social)                 -->
+    <!-- ======================================================================= -->
+    <title>Página Não Encontrada (Erro 404) | Completo e Atualizado</title>
+    <meta name="description" content="A página, artigo ou análise que você tentou acessar não está mais disponível ou o link está incorreto. Volte para a página inicial do Completo e Atualizado.">
+    <meta name="author" content="Marcos Rodrigues">
+    
+    <!-- DIRETRIZ CRÍTICA DE SEO: O Google é instruído a NÃO colocar essa página nas buscas, 
+         mas a seguir o link do botão para passar autoridade para a Home -->
+    <meta name="robots" content="noindex, follow"> 
+
+    <!-- Open Graph (Facebook, WhatsApp, LinkedIn) -->
+    <meta property="og:title" content="Página Não Encontrada | Completo e Atualizado">
+    <meta property="og:description" content="A página ou análise que você tentou acessar não está mais disponível ou não existe.">
+    <meta property="og:image" content="https://blog.grupobhds.com/logo.png">
+    <meta property="og:type" content="website">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='%231DA1F2'%3E%3Cpath d='M12 2C6.5 2 2 6.5 2 12s4.5 10 10 10 10-4.5 10-10S17.5 2 12 2zm-1.9 14.7L6 12.6l1.5-1.5 2.6 2.6 6.4-6.4 1.5 1.5-7.9 7.9z'/%3E%3C/svg%3E">
+
+    <!-- Tailwind CSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&family=Lora:ital,wght@0,400;0,500;0,600;1,400&display=swap" rel="stylesheet">
+
+    <!-- Configuração Customizada do Tailwind (Material 3) -->
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    fontFamily: {
+                        sans: ['Roboto', 'sans-serif'],
+                        serif: ['Lora', 'serif'],
+                    },
+                    colors: {
+                        m3: {
+                            surface: '#fdfbff',
+                            surfaceVariant: '#e1e2ec',
+                            primary: '#005ac1',
+                            onPrimary: '#ffffff',
+                            primaryContainer: '#d8e2ff',
+                            onPrimaryContainer: '#001a41',
+                        }
+                    },
+                    boxShadow: {
+                        'm3-1': '0px 1px 3px 1px rgba(0, 0, 0, 0.15), 0px 1px 2px 0px rgba(0, 0, 0, 0.30)',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-[#f0f4f8] font-sans text-slate-800 antialiased flex flex-col min-h-screen">
+
+    <!-- Header / Navbar Simples -->
+    <header class="bg-white/80 backdrop-blur-md border-b border-slate-200 sticky top-0 z-50 shadow-sm">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <!-- Logo -->
+                <div class="flex-shrink-0 flex items-center">
+                    <a href="https://blog.grupobhds.com/" class="flex items-center gap-3 group" aria-label="Voltar para a página inicial">
+                        <img src="https://blog.grupobhds.com/logo.png" alt="Completo e Atualizado Logo" class="h-10 w-auto group-hover:scale-105 transition-transform duration-300" onerror="this.src='https://placehold.co/150x50/ffffff/005ac1?text=Logo+Aqui'">
+                        <span class="font-bold text-xl tracking-tight text-slate-900 hidden sm:block">Completo e Atualizado</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Conteúdo 404 -->
+    <main class="flex-grow flex items-center justify-center w-full px-4 sm:px-6 lg:px-8 py-20">
+        <div class="max-w-2xl w-full bg-white rounded-[2rem] shadow-sm border border-slate-100 p-10 md:p-16 text-center relative overflow-hidden">
+            
+            <!-- Efeito Visual de Topo -->
+            <div class="absolute top-0 left-0 w-full h-2 bg-gradient-to-r from-slate-300 via-slate-400 to-slate-300"></div>
+            
+            <!-- Ícone Investigativo (Lupa Quebrada/Pesquisa) -->
+            <div class="w-24 h-24 bg-slate-50 rounded-full flex items-center justify-center mx-auto mb-8 border border-slate-100">
+                <svg class="w-12 h-12 text-slate-400" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0zM13 10H7"></path>
+                </svg>
+            </div>
+
+            <!-- Títulos e Textos -->
+            <h1 class="text-6xl md:text-8xl font-black text-slate-200 absolute top-4 left-1/2 transform -translate-x-1/2 -z-10 select-none pointer-events-none">404</h1>
+            <h2 class="text-3xl md:text-4xl font-black text-slate-900 mb-4 tracking-tight relative z-10">Página Não Encontrada</h2>
+            
+            <p class="text-slate-600 font-serif text-lg leading-relaxed mb-10 max-w-lg mx-auto">
+                A análise, review ou documento que você está procurando pode ter sido movida, excluída ou o link digitado está incorreto. Nossa equipe de investigação não conseguiu localizar este endereço.
+            </p>
+
+            <!-- Botão de Voltar -->
+            <a href="https://blog.grupobhds.com/" class="inline-flex items-center justify-center gap-2 bg-m3-primary hover:bg-blue-700 text-white font-bold py-4 px-8 rounded-full shadow-lg transition-transform duration-300 hover:scale-105">
+                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 19l-7-7m0 0l7-7m-7 7h18"></path></svg>
+                Voltar para a Página Inicial
+            </a>
+
+        </div>
+    </main>
+
+    <!-- Rodapé -->
+    <footer class="bg-white mt-auto py-10 border-t border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex flex-col items-center">
+            
+            <a href="https://blog.grupobhds.com/" class="flex items-center gap-3 mb-6" aria-label="Voltar para a página inicial">
+                <img src="https://blog.grupobhds.com/logo.png" alt="Completo e Atualizado Logo" class="h-10 w-auto opacity-80" onerror="this.src='https://placehold.co/150x50/ffffff/005ac1?text=Logo+Aqui'">
+            </a>
+            
+            <p class="text-slate-500 text-sm leading-relaxed max-w-lg text-center mb-8">
+                Analisamos os produtos mais procurados da internet para garantir que você faça sempre a melhor escolha para o seu bolso e saúde.
+            </p>
+            
+            <div class="flex gap-6 mb-8">
+                <a href="https://blog.grupobhds.com/termos-de-uso" class="text-slate-400 hover:text-m3-primary text-sm font-medium transition-colors">Termos de Uso</a>
+                <a href="https://blog.grupobhds.com/politica-de-privacidade" class="text-slate-400 hover:text-m3-primary text-sm font-medium transition-colors">Política de Privacidade</a>
+            </div>
+            
+            <div class="text-center text-slate-600 font-bold text-base bg-slate-50 py-3 px-6 rounded-full border border-slate-100">
+                Completo e Atualizado <span class="text-xs font-normal text-slate-400 ml-1">by Grupo BHDS</span>
+            </div>
+            
+        </div>
+    </footer>
+
+</body>
+</html>
