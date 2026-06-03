@@ -1,0 +1,1 @@
+User-agent: *Allow: /Disallow: /wp-admin/Disallow: /admin/Disallow: /private/Disallow: /?Disallow: /&User-agent: AhrefsBotDisallow: /User-agent: SemrushBotDisallow: /User-agent: MJ12botDisallow: /User-agent: DotBotDisallow: /User-agent: RogerbotDisallow: /Sitemap: https://blog.grupobhds.com/sitemap.xml
